@@ -1,5 +1,5 @@
 {
-    "name": "Modmail",
+    "name": "Lagbot Modmail",
     "description": "An easy to install Modmail bot for Discord - DM to contact mods!",
     "repository": "https://github.com/kyb3r/modmail",
     "env": {
@@ -25,7 +25,7 @@
         },
         "DATABASE_TYPE": {
             "description": "The type of your database. There is only one supported database at the moment - MongoDB (default).",
-            "required": false
+            "required": true
         },
         "LOG_URL": {
             "description": "The url of the log viewer app for viewing self-hosted logs.",
@@ -33,7 +33,7 @@
         },
         "GITHUB_TOKEN": {
             "description": "A github personal access token with the repo scope.",
-            "required": false
+            "required": true
         }
     }
 }
